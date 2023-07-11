@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #e0e0e0;
+}
+
+.header_conteiner {
+  border: 1px dashed blue;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.header_conteiner .header_nav {
+  border: 1px dashed red;
+  background-color: rgba(102, 51, 153, 0.352);
+}
+
+/*# sourceMappingURL=movil.css.map */
