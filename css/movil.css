@@ -13,9 +13,8 @@ body {
 }
 
 .contenedor {
-  border: 1px dashed red;
   height: 100vh;
-  padding: 0px 10px;
+  padding: 5px;
   background: linear-gradient(to bottom, #ff8c00, #d73900);
 }
 .contenedor .contenedor_nav {
@@ -27,7 +26,7 @@ body {
   justify-content: space-between;
 }
 .contenedor .contenedor_nav .contenedor_nav_element {
-  margin-left: 10px;
+  margin-left: 15px;
 }
 .contenedor .contenedor_nav .nav_element_izq {
   display: flex;
@@ -46,7 +45,8 @@ body {
   font-weight: bold;
   letter-spacing: 0pt;
   word-spacing: 0pt;
-  margin: 0;
+  line-height: 1;
+  margin: 0 0 0 10px;
 }
 
 /*# sourceMappingURL=movil.css.map */
