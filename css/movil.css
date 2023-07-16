@@ -58,5 +58,31 @@ body {
 .contenedor .contenedor_nav .nav_element_der .nav_menu img {
   width: 30px;
 }
+.contenedor .contenedor_nav .offcanvas_contenedor {
+  border: 1px dashed blue;
+  width: 70vw;
+}
+.contenedor .contenedor_nav .offcanvas_contenedor .offcanvas-header {
+  padding: 10px 15px;
+}
+.contenedor .contenedor_nav .offcanvas_contenedor .titulo_offcanvas {
+  font-family: helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 0pt;
+  word-spacing: 0pt;
+  line-height: 1;
+  margin: 0 0 0 15px;
+}
+.contenedor .contenedor_nav .offcanvas_contenedor .btn_menu_cerrar {
+  border: none;
+  background-color: white;
+  padding: 15px;
+  width: 50px;
+  height: 50px;
+}
+.contenedor .contenedor_nav .offcanvas_contenedor .btn_menu_cerrar img {
+  width: 100%;
+}
 
 /*# sourceMappingURL=movil.css.map */

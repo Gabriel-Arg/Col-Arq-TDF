@@ -88,6 +88,41 @@ body {
                 }
             }
         }
+
+        .offcanvas_contenedor {
+            border: 1px dashed blue;
+            width: 70vw;
+
+            .offcanvas-header {
+                // background-color: green;
+                padding: 10px 15px;
+            }
+
+            .titulo_offcanvas {
+                // border: 1px dashed black;
+                font-family: helvetica, sans-serif;
+                font-size: 12px;
+                font-weight: bold;
+                letter-spacing: 0pt;
+                word-spacing: 0pt;
+                line-height: 1;
+                margin: 0 0 0 15px;
+            }
+
+            .btn_menu_cerrar {
+                // border: 1px dashed red;
+                border: none;
+                background-color: $blanco;
+                padding: 15px;
+                width: 50px;
+                height: 50px;
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+
     }
 
 }
