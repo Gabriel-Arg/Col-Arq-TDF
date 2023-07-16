@@ -20,7 +20,7 @@ body {
 // ------------------------------------------------------
 
 //--------------------------------------------
-//     ENCABEZADO
+//     BARRA DE NAVEGACIÓN
 //--------------------------------------------
 
 .contenedor {
@@ -74,11 +74,18 @@ body {
         }
 
         .nav_element_der {
-            border: 1px dashed red;
-            margin-right: 15px;
+            // border: 1px dashed red;
+            margin-right: 20px;
 
             .nav_menu {
-                background-color: rgb(0, 217, 255);
+                // background-color: rgb(0, 217, 255);
+                // border: 1px dashed purple;
+                background-color: $blanco;
+                border: 1px solid $gris_claro;
+                
+                img {
+                    width: 30px;
+                }
             }
         }
     }

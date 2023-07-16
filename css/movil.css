@@ -49,11 +49,14 @@ body {
   margin: 0 0 0 10px;
 }
 .contenedor .contenedor_nav .nav_element_der {
-  border: 1px dashed red;
-  margin-right: 15px;
+  margin-right: 20px;
 }
 .contenedor .contenedor_nav .nav_element_der .nav_menu {
-  background-color: #00d9ff;
+  background-color: white;
+  border: 1px solid #afafaf;
+}
+.contenedor .contenedor_nav .nav_element_der .nav_menu img {
+  width: 30px;
 }
 
 /*# sourceMappingURL=movil.css.map */
