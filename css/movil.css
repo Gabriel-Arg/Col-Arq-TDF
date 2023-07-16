@@ -48,5 +48,12 @@ body {
   line-height: 1;
   margin: 0 0 0 10px;
 }
+.contenedor .contenedor_nav .nav_element_der {
+  border: 1px dashed red;
+  margin-right: 15px;
+}
+.contenedor .contenedor_nav .nav_element_der .nav_menu {
+  background-color: #00d9ff;
+}
 
 /*# sourceMappingURL=movil.css.map */
