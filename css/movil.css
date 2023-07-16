@@ -9,20 +9,44 @@ html {
 }
 
 body {
-  background-color: #e0e0e0;
+  background-color: white;
 }
 
-.header_conteiner {
-  border: 1px dashed blue;
-  height: 100px;
+.contenedor {
+  border: 1px dashed red;
+  height: 100vh;
+  padding: 0px 10px;
+  background: linear-gradient(to bottom, #ff8c00, #d73900);
+}
+.contenedor .contenedor_nav {
+  background-color: white;
+  height: 70px;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: space-between;
 }
-.header_conteiner .header_nav {
-  border: 1px dashed red;
-  background-color: rgba(102, 51, 153, 0.352);
+.contenedor .contenedor_nav .contenedor_nav_element {
+  margin-left: 10px;
+}
+.contenedor .contenedor_nav .nav_element_izq {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.contenedor .contenedor_nav .nav_element_izq figure {
+  margin: 0;
+}
+.contenedor .contenedor_nav .nav_element_izq figure img {
+  width: 50px;
+}
+.contenedor .contenedor_nav .nav_element_izq h2 {
+  font-family: helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 0pt;
+  word-spacing: 0pt;
+  margin: 0;
 }
 
 /*# sourceMappingURL=movil.css.map */

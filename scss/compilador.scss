@@ -18,17 +18,53 @@ body {
 //     ENCABEZADO
 //--------------------------------------------
 
-.header_conteiner {
-    border: 1px dashed blue;
-    height: 100px;
+.contenedor {
+    border: 1px dashed red;
+    height: 100vh;
+    padding: 0px 10px;
+    background: linear-gradient(to bottom, #ff8c00, #d73900);
 
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
+    .contenedor_nav {
+        // border: 1px dashed blue;
+        background-color: $blanco;
+        height: 70px;
 
-    .header_nav {
-        border: 1px dashed red;
-        background-color: rgba(102, 51, 153, 0.352);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+
+        .contenedor_nav_element {
+            // border: 1px dashed green;
+            margin-left: 10px;
+        }
+
+        .nav_element_izq {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+
+            figure {
+                // border: 1px dashed orangered;
+                margin: 0;
+
+                img {
+                    // border: 1px dashed black;
+                    width: 50px;
+                }
+            }
+
+            h2 {
+                // border: 1px dashed black;
+                font-family: helvetica, sans-serif;
+                font-size: 12px;
+                font-weight: bold;
+                letter-spacing: 0pt;
+                word-spacing: 0pt;
+                margin: 0;
+            }
+        }
     }
+
 }
