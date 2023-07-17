@@ -59,13 +59,13 @@ body {
   width: 30px;
 }
 .contenedor .contenedor_nav .offcanvas_contenedor {
-  border: 1px dashed blue;
   width: 70vw;
 }
 .contenedor .contenedor_nav .offcanvas_contenedor .offcanvas-header {
   padding: 10px 15px;
 }
-.contenedor .contenedor_nav .offcanvas_contenedor .titulo_offcanvas {
+.contenedor .contenedor_nav .offcanvas_contenedor .offcanvas-header .titulo_offcanvas {
+  color: #afafaf;
   font-family: helvetica, sans-serif;
   font-size: 12px;
   font-weight: bold;
@@ -74,15 +74,33 @@ body {
   line-height: 1;
   margin: 0 0 0 15px;
 }
-.contenedor .contenedor_nav .offcanvas_contenedor .btn_menu_cerrar {
+.contenedor .contenedor_nav .offcanvas_contenedor .offcanvas-header .btn_menu_cerrar {
   border: none;
   background-color: white;
   padding: 15px;
   width: 50px;
   height: 50px;
 }
-.contenedor .contenedor_nav .offcanvas_contenedor .btn_menu_cerrar img {
+.contenedor .contenedor_nav .offcanvas_contenedor .offcanvas-header .btn_menu_cerrar img {
   width: 100%;
+}
+.contenedor .contenedor_nav .offcanvas_contenedor .offcanvas-body {
+  margin: 0px 20px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.contenedor .contenedor_nav .offcanvas_contenedor .offcanvas-body .offcanvas_link {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0px;
+  font-family: helvetica, sans-serif;
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=movil.css.map */

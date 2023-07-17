@@ -90,37 +90,66 @@ body {
         }
 
         .offcanvas_contenedor {
-            border: 1px dashed blue;
+            // border: 1px dashed blue;
             width: 70vw;
 
             .offcanvas-header {
                 // background-color: green;
                 padding: 10px 15px;
+
+                .titulo_offcanvas {
+                    // border: 1px dashed black;
+                    color: $gris_claro;
+                    font-family: helvetica, sans-serif;
+                    font-size: 12px;
+                    font-weight: bold;
+                    letter-spacing: 0pt;
+                    word-spacing: 0pt;
+                    line-height: 1;
+                    margin: 0 0 0 15px;
+                }
+
+                .btn_menu_cerrar {
+                    // border: 1px dashed red;
+                    border: none;
+                    background-color: $blanco;
+                    padding: 15px;
+                    width: 50px;
+                    height: 50px;
+    
+                    img {
+                        width: 100%;
+                    }
+                }
+
             }
 
-            .titulo_offcanvas {
-                // border: 1px dashed black;
-                font-family: helvetica, sans-serif;
-                font-size: 12px;
-                font-weight: bold;
-                letter-spacing: 0pt;
-                word-spacing: 0pt;
-                line-height: 1;
-                margin: 0 0 0 15px;
-            }
+            .offcanvas-body {
+                // border: 1px dashed brown;
+                margin: 0px 20px;
+                padding: 0;
 
-            .btn_menu_cerrar {
-                // border: 1px dashed red;
-                border: none;
-                background-color: $blanco;
-                padding: 15px;
-                width: 50px;
-                height: 50px;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: flex-start;
 
-                img {
+                .offcanvas_link {
+                    // border: 1px dashed blue;
                     width: 100%;
+                    padding: 15px;
+                    margin: 10px 0px;
+
+                    font-family: helvetica, sans-serif;
+                    text-decoration: none;
+                    color: black;
+                    font-size: 14px;
+                    font-weight: bold;
+
                 }
             }
+
+            
         }
 
     }
