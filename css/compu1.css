@@ -1,7 +1,7 @@
-@media screen and (min-width: 1025px) and (max-width: 1200px) {
+@media screen and (min-width: 1025px) {
     
-    .header_conteiner .header_nav {
-        background-color: rgba(0, 241, 0, 0.697);
+    .contenedor .contenedor_nav .nav_element_der {
+        border: 3px solid rgb(0, 47, 255);
     }
 
   }
