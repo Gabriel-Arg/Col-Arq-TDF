@@ -1,7 +1,29 @@
 @media screen and (min-width: 1025px) {
-    
-    .contenedor .contenedor_nav .nav_element_der {
-        border: 3px solid rgb(0, 47, 255);
+
+    .contenedor .contenedor_nav {
+        height: 85px;
     }
 
-  }
+    .contenedor .contenedor_nav .nav_element_der {
+        display: none;
+    }
+
+    .contenedor .contenedor_nav .nav_element_izq {
+        margin-left: 2vw;
+    }
+
+    .contenedor .contenedor_nav .nav_element_izq figure img {
+        width: 85px;
+    }
+
+    .contenedor .contenedor_nav .nav_element_izq h2 {
+        font-size: 15px;
+    }
+
+    .contenedor .contenedor_nav .nav_element_links {
+        /* border: 1px dashed blue; */
+        display: flex;
+        margin-right: 2vw;
+    }
+
+}

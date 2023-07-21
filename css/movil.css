@@ -32,6 +32,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin-left: 15px;
 }
 .contenedor .contenedor_nav .nav_element_izq figure {
   margin: 0;
@@ -40,6 +41,7 @@ body {
   width: 50px;
 }
 .contenedor .contenedor_nav .nav_element_izq h2 {
+  color: #1d1c1c;
   font-family: helvetica, sans-serif;
   font-size: 12px;
   font-weight: bold;
@@ -98,8 +100,23 @@ body {
   margin: 10px 0px;
   font-family: helvetica, sans-serif;
   text-decoration: none;
-  color: black;
+  color: #1d1c1c;
   font-size: 14px;
+  font-weight: bold;
+}
+.contenedor .contenedor_nav .nav_element_links {
+  margin-right: 15px;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+.contenedor .contenedor_nav .nav_element_links .nav_element_links_a {
+  margin: 7px;
+  font-family: helvetica, sans-serif;
+  text-decoration: none;
+  color: #1d1c1c;
+  font-size: 1.8rem;
   font-weight: bold;
 }
 

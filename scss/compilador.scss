@@ -49,7 +49,7 @@ body {
             display: flex;
             flex-direction: row;
             align-items: center;
-
+            margin-left: 15px;
 
             figure {
                 // border: 1px dashed orangered;
@@ -63,6 +63,7 @@ body {
 
             h2 {
                 // border: 1px dashed black;
+                color: $negro;
                 font-family: helvetica, sans-serif;
                 font-size: 12px;
                 font-weight: bold;
@@ -142,14 +143,33 @@ body {
 
                     font-family: helvetica, sans-serif;
                     text-decoration: none;
-                    color: black;
+                    color: $negro;
                     font-size: 14px;
                     font-weight: bold;
-
                 }
             }
 
             
+        }
+
+        .nav_element_links {
+            // border: 1px dashed blue;
+            margin-right: 15px;
+            display: none;
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-end;
+
+            .nav_element_links_a {
+                // background-color: rgba(128, 0, 113, 0.227);
+                margin: 7px;
+                
+                font-family: helvetica, sans-serif;
+                text-decoration: none;
+                color: $negro;
+                font-size: 1.8rem;
+                font-weight: bold;
+            }
         }
 
     }
