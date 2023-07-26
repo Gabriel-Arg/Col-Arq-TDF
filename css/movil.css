@@ -112,12 +112,23 @@ body {
   justify-content: flex-end;
 }
 .contenedor .contenedor_nav .nav_element_links .nav_element_links_a {
-  margin: 7px;
+  border-radius: 4px;
+  height: 35px;
+  padding: 10px;
+  margin: 0px 0px 0px 7px;
   font-family: helvetica, sans-serif;
   text-decoration: none;
   color: #1d1c1c;
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.contenedor .contenedor_nav .nav_element_links .nav_element_links_a:hover {
+  background-color: rgba(255, 0, 72, 0.268);
+  transition: background-color 0.3s;
 }
 
 /*# sourceMappingURL=movil.css.map */

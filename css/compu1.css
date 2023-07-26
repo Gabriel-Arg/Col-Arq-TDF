@@ -13,17 +13,22 @@
     }
 
     .contenedor .contenedor_nav .nav_element_izq figure img {
-        width: 85px;
+        width: 70px;
     }
 
     .contenedor .contenedor_nav .nav_element_izq h2 {
-        font-size: 15px;
+        font-size: 13px;
     }
 
     .contenedor .contenedor_nav .nav_element_links {
         /* border: 1px dashed blue; */
         display: flex;
-        margin-right: 2vw;
+        margin-right: 3vw;
+    }
+
+    .contenedor .contenedor_nav .nav_element_links .nav_element_links_a {
+        height: 40px;
+        margin: 0px 0px 0px 9px;
     }
 
 }

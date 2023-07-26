@@ -5,7 +5,7 @@
 @media screen and (min-width: 1201px) {
 
     .contenedor .contenedor_nav {
-        height: 100px;
+        height: 85px;
     }
 
     .contenedor .contenedor_nav .nav_element_izq {
@@ -13,7 +13,7 @@
     }
 
     .contenedor .contenedor_nav .nav_element_izq h2 {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .contenedor .contenedor_nav .nav_element_links {
@@ -23,11 +23,7 @@
     }
 
     .contenedor .contenedor_nav .nav_element_links .nav_element_links_a {
-        margin: 7px 0px 7px 35px;
-        font-family: helvetica, sans-serif;
-        text-decoration: none;
-        color: #1d1c1c;
-        font-size: 1.8rem;
-        font-weight: bold;
+        margin: 0px 0px 0px 11px;
+        font-size: 1.6rem;
     }
 }
