@@ -137,6 +137,7 @@ body {
 
                 .offcanvas_link {
                     // border: 1px dashed blue;
+                    border-radius: 4px;
                     width: 100%;
                     padding: 15px;
                     margin: 10px 0px;
@@ -146,6 +147,16 @@ body {
                     color: $negro;
                     font-size: 14px;
                     font-weight: bold;
+
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: flex-start;
+                    align-items: center;
+                }
+
+                .offcanvas_link:hover {
+                    background-color: $rosa_links;
+                    transition: background-color 0.3s;
                 }
             }
 
@@ -184,6 +195,7 @@ body {
                 background-color: $rosa_links;
                 transition: background-color 0.3s;
             }
+
         }
 
     }
