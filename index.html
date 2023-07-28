@@ -40,14 +40,14 @@
 </head>
 
 <body>
-
-
     <!-- --------------------------------------------------------------------- -->
     <!--               BARRA DE NAVEGACIÓN                                     -->
     <!-- --------------------------------------------------------------------- -->
 
     <div class="contenedor">
         <nav class="contenedor_nav">
+
+            <!-- -------lOGO COLEGIO DE ARQ A LA IZQUIERDA                      -->
             <div class="contenedor_nav_element nav_element_izq">
                 <figure>
                     <img src="icon/CDA.PNG" alt="Logo del Colegio de Arquitectos" />
@@ -59,37 +59,213 @@
                 </h2>
             </div>
 
-            <!--         BOTON MENU A LA IZQUIERDA                 -->
+            <!--         BOTON MENU A LA DERECHA                                   -->
             <div class="contenedor_nav_element nav_element_der">
                 <!-- ------BOTON MENU--------------------- -->
-                <button class="btn btn-primary nav_menu" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
-                aria-controls="offcanvasRight">
-                    <img src="icon/menu-right.png" alt="Botón menu">
+                <button class="btn btn-primary nav_menu" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                    <img src="icon/menu-right.png" alt="Botón menu" />
                 </button>
             </div>
 
-            <!--          MENU DESPLEGABLE OFF CANVAS              -->
+            <!--          MENU DESPLEGABLE OFF CANVAS                               -->
             <div class="offcanvas offcanvas-end offcanvas_contenedor" tabindex="-1" id="offcanvasRight"
                 aria-labelledby="offcanvasRightLabel">
                 <div class="offcanvas-header">
+
                     <!--    TUTULO                                 -->
                     <h5 class="offcanvas-title titulo_offcanvas" id="offcanvasRightLabel">
                         Elige una opción
                     </h5>
+
                     <!--    BOTON DE CIERRE                        -->
                     <button type="button" class="btn_menu_cerrar" data-bs-dismiss="offcanvas" aria-label="Close">
-                        <img src="icon/close.png" alt="Boton cerrar">
+                        <img src="icon/close.png" alt="Boton cerrar" />
                     </button>
                 </div>
-                <!--         ENLACES DEL MENU                      -->
+                <!--         ENLACES DEL MENU OFF CANVAS                                   -->
                 <div class="offcanvas-body">
-                    <a class="offcanvas_link" href="" target="_blank">Profesionales</a>
+                    <!-- <a class="offcanvas_link" href="" target="_blank">Profesionales</a>
                     <a class="offcanvas_link" href="" target="_blank">Colegio</a>
                     <a class="offcanvas_link" href="" target="_blank">Noticias</a>
                     <a class="offcanvas_link" href="" target="_blank">Legislaciones</a>
                     <a class="offcanvas_link" href="" target="_blank">Simulador</a>
                     <a class="offcanvas_link" href="" target="_blank">Matrícula</a>
-                    <a class="offcanvas_link" href="" target="_blank">Mi Cuenta</a>
+                    <a class="offcanvas_link" href="" target="_blank">Mi Cuenta</a> -->
+
+                    <!--   ACORDEON CON LOS ENLACES PRIMARIOS--------------------------------- -->
+                    <div class="accordion" id="accordionExample">
+
+                        <!-- ------------PROFESIONALES----------------- -->
+                        <div class="accordion-item">
+
+                            <!-- --------BOTO DESPLEGABLE------------------ -->
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Profesionales
+                                </button>
+                            </h2>
+
+                            <!-----------DESPLEGABLE----------------------- -->
+                            <div id="collapseOne" class="accordion-collapse collapse show"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <ul>
+                                        <li>link</li>
+                                        <li>link</li>
+                                        <li>link</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- ------------COLEGIO----------------- -->
+                        <div class="accordion-item">
+
+                            <!-- --------BOTO DESPLEGABLE------------------ -->
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Colegio
+                                </button>
+                            </h2>
+
+                            <!-----------DESPLEGABLE----------------------- -->
+                            <div id="collapseTwo" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <ul>
+                                        <li>link</li>
+                                        <li>link</li>
+                                        <li>link</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- ------------ NOTICIAS----------------- -->
+                        <div class="accordion-item">
+
+                            <!-- --------BOTO DESPLEGABLE------------------ -->
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Noticias
+                                </button>
+                            </h2>
+
+                            <!-----------DESPLEGABLE----------------------- -->
+                            <div id="collapseThree" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <ul>
+                                        <li>link</li>
+                                        <li>link</li>
+                                        <li>link</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- ------------LEGISLACIONES----------------- -->
+                        <div class="accordion-item">
+
+                            <!-- --------BOTO DESPLEGABLE------------------ -->
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseCuatro" aria-expanded="false"
+                                    aria-controls="collapseCuatro">
+                                    Legislaciones
+                                </button>
+                            </h2>
+
+                            <!-----------DESPLEGABLE----------------------- -->
+                            <div id="collapseCuatro" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <ul>
+                                        <li>link</li>
+                                        <li>link</li>
+                                        <li>link</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- -----------SIMULADOR----------------- -->
+                        <div class="accordion-item">
+
+                            <!-- --------BOTO DESPLEGABLE------------------ -->
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseCinco" aria-expanded="false" aria-controls="collapseCinco">
+                                    Simulador
+                                </button>
+                            </h2>
+
+                            <!-----------DESPLEGABLE----------------------- -->
+                            <div id="collapseCinco" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <ul>
+                                        <li>link</li>
+                                        <li>link</li>
+                                        <li>link</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- -----------MATRICULA----------------- -->
+                        <div class="accordion-item">
+
+                            <!-- --------BOTO DESPLEGABLE------------------ -->
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseSeis" aria-expanded="false" aria-controls="collapseSeis">
+                                    Matrícula
+                                </button>
+                            </h2>
+
+                            <!-----------DESPLEGABLE----------------------- -->
+                            <div id="collapseSeis" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <ul>
+                                        <li>link</li>
+                                        <li>link</li>
+                                        <li>link</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- -----------MI CUENTA----------------- -->
+                        <div class="accordion-item">
+
+                            <!-- --------BOTO DESPLEGABLE------------------ -->
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseSiete" aria-expanded="false" aria-controls="collapseSiete">
+                                    Mi Cuenta
+                                </button>
+                            </h2>
+
+                            <!-----------DESPLEGABLE----------------------- -->
+                            <div id="collapseSiete" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <ul>
+                                        <li>link</li>
+                                        <li>link</li>
+                                        <li>link</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
             </div>
 
@@ -103,8 +279,9 @@
                 <a class="nav_element_links_a" href="">Matrícula</a>
                 <a class="nav_element_links_a" href="">Mi Cuenta</a>
             </div>
-
         </nav>
+
+
     </div>
 
     <!-- --------------------------------------------------------------------- -->
@@ -115,21 +292,9 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <!-- --------------------------------------------------------------------- -->
+    <!--              SCRIPT BOOSTRAP                                           -->
+    <!-- --------------------------------------------------------------------- -->
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"

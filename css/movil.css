@@ -87,6 +87,7 @@ body {
   width: 100%;
 }
 .contenedor .contenedor_nav .offcanvas_contenedor .offcanvas-body {
+  border: 1px dashed brown;
   margin: 0px 20px;
   padding: 0;
   display: flex;
