@@ -183,11 +183,27 @@ body {
                                     letter-spacing: 0pt;
                                     word-spacing: 0pt;
                                     line-height: 1;
-                                    margin: 4px 0px;
-                                    padding: 10px 0px;
+                                    margin: 0px;
+                                    padding: 15px 0px;
                                     text-decoration: none;
                                 }
                             }
+                        }
+
+                        .collapse_body_colegio {
+                            height: 34vh;
+                        }
+                        .collapse_body_noticias {
+                            height: 14vh;
+                        }
+                        .collapse_body_legislaciones {
+                            height: 27vh;
+                        }
+                        .collapse_body_simulador {
+                            height: 8vh;
+                        }
+                        .collapse_body_cuenta {
+                            height: 15vh;
                         }
                     }
                 }
