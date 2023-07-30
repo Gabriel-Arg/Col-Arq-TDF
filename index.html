@@ -46,7 +46,6 @@
 
     <div class="contenedor">
         <nav class="contenedor_nav">
-
             <!-- -------lOGO COLEGIO DE ARQ A LA IZQUIERDA                      -->
             <div class="contenedor_nav_element nav_element_izq">
                 <figure>
@@ -72,7 +71,6 @@
             <div class="offcanvas offcanvas-end offcanvas_contenedor" tabindex="-1" id="offcanvasRight"
                 aria-labelledby="offcanvasRightLabel">
                 <div class="offcanvas-header">
-
                     <!--    TUTULO                                 -->
                     <h5 class="offcanvas-title titulo_offcanvas" id="offcanvasRightLabel">
                         Elige una opción
@@ -85,182 +83,118 @@
                 </div>
                 <!--         ENLACES DEL MENU OFF CANVAS                                   -->
                 <div class="offcanvas-body">
-                    <!-- <a class="offcanvas_link" href="" target="_blank">Profesionales</a>
-                    <a class="offcanvas_link" href="" target="_blank">Colegio</a>
-                    <a class="offcanvas_link" href="" target="_blank">Noticias</a>
-                    <a class="offcanvas_link" href="" target="_blank">Legislaciones</a>
-                    <a class="offcanvas_link" href="" target="_blank">Simulador</a>
-                    <a class="offcanvas_link" href="" target="_blank">Matrícula</a>
-                    <a class="offcanvas_link" href="" target="_blank">Mi Cuenta</a> -->
-
                     <!--   ACORDEON CON LOS ENLACES PRIMARIOS--------------------------------- -->
-                    <div class="accordion" id="accordionExample">
-
-                        <!-- ------------PROFESIONALES----------------- -->
-                        <div class="accordion-item">
-
-                            <!-- --------BOTO DESPLEGABLE------------------ -->
-                            <h2 class="accordion-header">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    <div class="accordion accordion-flush offcanvas-body_accordion" id="accordionFlushExample">
+                        <!-- ----------PROFESIONALES------------------------------------- -->
+                        <div class="accordion-item offcanvas-body_accordion_item">
+                            <h2 class="accordion-header offcanvas-body_accordion_item_h2">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                    aria-controls="flush-collapseOne">
                                     Profesionales
                                 </button>
                             </h2>
-
-                            <!-----------DESPLEGABLE----------------------- -->
-                            <div id="collapseOne" class="accordion-collapse collapse show"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <ul>
-                                        <li>link</li>
-                                        <li>link</li>
-                                        <li>link</li>
-                                    </ul>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse collapse_body"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body collapse_body_lista">
+                                    <a href="">Link</a>
+                                    <a href="">Link</a>
+                                    <a href="">Link</a>
                                 </div>
                             </div>
                         </div>
 
-                        <!-- ------------COLEGIO----------------- -->
-                        <div class="accordion-item">
-
-                            <!-- --------BOTO DESPLEGABLE------------------ -->
-                            <h2 class="accordion-header">
+                        <!-- ----------COLEGIO       ------------------------------------ -->
+                        <div class="accordion-item offcanvas-body_accordion_item">
+                            <h2 class="accordion-header offcanvas-body_accordion_item_h2">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    data-bs-target="#flush-collapseDos" aria-expanded="false"
+                                    aria-controls="flush-collapseDos">
                                     Colegio
                                 </button>
                             </h2>
-
-                            <!-----------DESPLEGABLE----------------------- -->
-                            <div id="collapseTwo" class="accordion-collapse collapse"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <ul>
-                                        <li>link</li>
-                                        <li>link</li>
-                                        <li>link</li>
-                                    </ul>
+                            <div id="flush-collapseDos" class="accordion-collapse collapse collapse_body"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body collapse_body_lista">
+                                    <a href="">Link</a>
+                                    <a href="">Link</a>
+                                    <a href="">Link</a>
                                 </div>
                             </div>
                         </div>
 
-                        <!-- ------------ NOTICIAS----------------- -->
-                        <div class="accordion-item">
-
-                            <!-- --------BOTO DESPLEGABLE------------------ -->
-                            <h2 class="accordion-header">
+                        <!-- ----------NOTICIAS       ------------------------------------ -->
+                        <div class="accordion-item offcanvas-body_accordion_item">
+                            <h2 class="accordion-header offcanvas-body_accordion_item_h2">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    data-bs-target="#flush-collapseTres" aria-expanded="false"
+                                    aria-controls="flush-collapseTres">
                                     Noticias
                                 </button>
                             </h2>
-
-                            <!-----------DESPLEGABLE----------------------- -->
-                            <div id="collapseThree" class="accordion-collapse collapse"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <ul>
-                                        <li>link</li>
-                                        <li>link</li>
-                                        <li>link</li>
-                                    </ul>
+                            <div id="flush-collapseTres" class="accordion-collapse collapse collapse_body"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body collapse_body_lista">
+                                    <a href="">Link</a>
+                                    <a href="">Link</a>
+                                    <a href="">Link</a>
                                 </div>
                             </div>
                         </div>
 
-                        <!-- ------------LEGISLACIONES----------------- -->
-                        <div class="accordion-item">
-
-                            <!-- --------BOTO DESPLEGABLE------------------ -->
-                            <h2 class="accordion-header">
+                        <!-- ----------LEGISLACIONES       ------------------------------------ -->
+                        <div class="accordion-item offcanvas-body_accordion_item">
+                            <h2 class="accordion-header offcanvas-body_accordion_item_h2">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseCuatro" aria-expanded="false"
-                                    aria-controls="collapseCuatro">
+                                    data-bs-target="#flush-collapseCuatro" aria-expanded="false"
+                                    aria-controls="flush-collapseCuatro">
                                     Legislaciones
                                 </button>
                             </h2>
-
-                            <!-----------DESPLEGABLE----------------------- -->
-                            <div id="collapseCuatro" class="accordion-collapse collapse"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <ul>
-                                        <li>link</li>
-                                        <li>link</li>
-                                        <li>link</li>
-                                    </ul>
+                            <div id="flush-collapseCuatro" class="accordion-collapse collapse collapse_body"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body collapse_body_lista">
+                                    <a href="">Link</a>
+                                    <a href="">Link</a>
+                                    <a href="">Link</a>
                                 </div>
                             </div>
                         </div>
 
-                        <!-- -----------SIMULADOR----------------- -->
-                        <div class="accordion-item">
-
-                            <!-- --------BOTO DESPLEGABLE------------------ -->
-                            <h2 class="accordion-header">
+                        <!-- ----------SIMULADOR       ------------------------------------ -->
+                        <div class="accordion-item offcanvas-body_accordion_item">
+                            <h2 class="accordion-header offcanvas-body_accordion_item_h2">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseCinco" aria-expanded="false" aria-controls="collapseCinco">
+                                    data-bs-target="#flush-collapseCinco" aria-expanded="false"
+                                    aria-controls="flush-collapseCinco">
                                     Simulador
                                 </button>
                             </h2>
-
-                            <!-----------DESPLEGABLE----------------------- -->
-                            <div id="collapseCinco" class="accordion-collapse collapse"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <ul>
-                                        <li>link</li>
-                                        <li>link</li>
-                                        <li>link</li>
-                                    </ul>
+                            <div id="flush-collapseCinco" class="accordion-collapse collapse collapse_body"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body collapse_body_lista">
+                                    <a href="">Link</a>
+                                    <a href="">Link</a>
+                                    <a href="">Link</a>
                                 </div>
                             </div>
                         </div>
 
-                        <!-- -----------MATRICULA----------------- -->
-                        <div class="accordion-item">
-
-                            <!-- --------BOTO DESPLEGABLE------------------ -->
-                            <h2 class="accordion-header">
+                        <!-- ----------MI CUENTA       ------------------------------------ -->
+                        <div class="accordion-item offcanvas-body_accordion_item">
+                            <h2 class="accordion-header offcanvas-body_accordion_item_h2">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseSeis" aria-expanded="false" aria-controls="collapseSeis">
-                                    Matrícula
-                                </button>
-                            </h2>
-
-                            <!-----------DESPLEGABLE----------------------- -->
-                            <div id="collapseSeis" class="accordion-collapse collapse"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <ul>
-                                        <li>link</li>
-                                        <li>link</li>
-                                        <li>link</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- -----------MI CUENTA----------------- -->
-                        <div class="accordion-item">
-
-                            <!-- --------BOTO DESPLEGABLE------------------ -->
-                            <h2 class="accordion-header">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseSiete" aria-expanded="false" aria-controls="collapseSiete">
+                                    data-bs-target="#flush-collapseSeis" aria-expanded="false"
+                                    aria-controls="flush-collapseSeis">
                                     Mi Cuenta
                                 </button>
                             </h2>
-
-                            <!-----------DESPLEGABLE----------------------- -->
-                            <div id="collapseSiete" class="accordion-collapse collapse"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <ul>
-                                        <li>link</li>
-                                        <li>link</li>
-                                        <li>link</li>
-                                    </ul>
+                            <div id="flush-collapseSeis" class="accordion-collapse collapse collapse_body"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body collapse_body_lista">
+                                    <a href="">Link</a>
+                                    <a href="">Link</a>
+                                    <a href="">Link</a>
                                 </div>
                             </div>
                         </div>
@@ -280,17 +214,11 @@
                 <a class="nav_element_links_a" href="">Mi Cuenta</a>
             </div>
         </nav>
-
-
     </div>
 
     <!-- --------------------------------------------------------------------- -->
     <!--               HEADER - ENCABEZADO - HOME                              -->
     <!-- --------------------------------------------------------------------- -->
-
-
-
-
 
     <!-- --------------------------------------------------------------------- -->
     <!--              SCRIPT BOOSTRAP                                           -->

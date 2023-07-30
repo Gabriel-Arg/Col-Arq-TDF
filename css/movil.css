@@ -87,7 +87,6 @@ body {
   width: 100%;
 }
 .contenedor .contenedor_nav .offcanvas_contenedor .offcanvas-body {
-  border: 1px dashed brown;
   margin: 0px 20px;
   padding: 0;
   display: flex;
@@ -95,24 +94,42 @@ body {
   justify-content: flex-start;
   align-items: flex-start;
 }
-.contenedor .contenedor_nav .offcanvas_contenedor .offcanvas-body .offcanvas_link {
-  border-radius: 4px;
+.contenedor .contenedor_nav .offcanvas_contenedor .offcanvas-body .offcanvas-body_accordion {
   width: 100%;
-  padding: 15px;
-  margin: 10px 0px;
-  font-family: helvetica, sans-serif;
-  text-decoration: none;
-  color: #1d1c1c;
-  font-size: 14px;
-  font-weight: bold;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
 }
-.contenedor .contenedor_nav .offcanvas_contenedor .offcanvas-body .offcanvas_link:hover {
+.contenedor .contenedor_nav .offcanvas_contenedor .offcanvas-body .offcanvas-body_accordion .offcanvas-body_accordion_item .offcanvas-body_accordion_item_h2 button {
+  height: 8vh;
+  color: #1d1c1c;
+  font-family: helvetica, sans-serif;
+  font-size: 1.6rem;
+  font-weight: bold;
+  letter-spacing: 0pt;
+  word-spacing: 0pt;
+  line-height: 1;
+  margin: 0px;
+}
+.contenedor .contenedor_nav .offcanvas_contenedor .offcanvas-body .offcanvas-body_accordion .offcanvas-body_accordion_item .collapse_body {
   background-color: rgba(255, 0, 72, 0.268);
-  transition: background-color 0.3s;
+  height: 20vh;
+}
+.contenedor .contenedor_nav .offcanvas_contenedor .offcanvas-body .offcanvas-body_accordion .offcanvas-body_accordion_item .collapse_body .collapse_body_lista {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+.contenedor .contenedor_nav .offcanvas_contenedor .offcanvas-body .offcanvas-body_accordion .offcanvas-body_accordion_item .collapse_body .collapse_body_lista a {
+  width: 100%;
+  color: #1d1c1c;
+  font-family: helvetica, sans-serif;
+  font-size: 1.6rem;
+  font-weight: bold;
+  letter-spacing: 0pt;
+  word-spacing: 0pt;
+  line-height: 1;
+  margin: 4px 0px;
+  padding: 10px 0px;
 }
 .contenedor .contenedor_nav .nav_element_links {
   margin-right: 15px;
