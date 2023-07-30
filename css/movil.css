@@ -98,6 +98,7 @@ body {
   width: 100%;
 }
 .contenedor .contenedor_nav .offcanvas_contenedor .offcanvas-body .offcanvas-body_accordion .offcanvas-body_accordion_item .offcanvas-body_accordion_item_h2 button {
+  background-color: white;
   height: 8vh;
   color: #1d1c1c;
   font-family: helvetica, sans-serif;
@@ -109,8 +110,9 @@ body {
   margin: 0px;
 }
 .contenedor .contenedor_nav .offcanvas_contenedor .offcanvas-body .offcanvas-body_accordion .offcanvas-body_accordion_item .collapse_body {
-  background-color: rgba(255, 0, 72, 0.268);
+  background-color: rgba(175, 175, 175, 0.402);
   height: 20vh;
+  transition: height 0.3s ease;
 }
 .contenedor .contenedor_nav .offcanvas_contenedor .offcanvas-body .offcanvas-body_accordion .offcanvas-body_accordion_item .collapse_body .collapse_body_lista {
   height: 100%;
@@ -130,6 +132,7 @@ body {
   line-height: 1;
   margin: 4px 0px;
   padding: 10px 0px;
+  text-decoration: none;
 }
 .contenedor .contenedor_nav .nav_element_links {
   margin-right: 15px;

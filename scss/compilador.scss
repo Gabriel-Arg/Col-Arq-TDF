@@ -145,7 +145,7 @@ body {
                             // border: 1px dashed blue;
 
                             button {
-                                // background-color: rgba(255, 0, 0, 0.252);
+                                background-color: $blanco;
                                 height: 8vh;
 
                                 color: $negro;
@@ -157,11 +157,13 @@ body {
                                 line-height: 1;
                                 margin: 0px;
                             }
+
                         }
 
                         .collapse_body {
-                            background-color: $rosa_links;
+                            background-color: $gris_claro_suave;
                             height: 20vh;
+                            transition: height 0.3s ease;
 
                             .collapse_body_lista {
                                 // border: 1px dashed red;
@@ -183,6 +185,7 @@ body {
                                     line-height: 1;
                                     margin: 4px 0px;
                                     padding: 10px 0px;
+                                    text-decoration: none;
                                 }
                             }
                         }
