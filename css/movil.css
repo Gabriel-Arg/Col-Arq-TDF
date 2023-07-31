@@ -156,6 +156,37 @@ body {
   align-items: center;
   justify-content: flex-end;
 }
+.contenedor .contenedor_nav .nav_element_links .dropdown_contenedor .dropdown_contenedor_btn {
+  background-color: white;
+  border: none;
+  height: 38px;
+  padding: 5px 15px;
+  font-family: helvetica, sans-serif;
+  text-decoration: none;
+  color: #1d1c1c;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+.contenedor .contenedor_nav .nav_element_links .dropdown_contenedor .dropdown_contenedor_btn:hover {
+  background-color: rgba(255, 0, 72, 0.268);
+}
+.contenedor .contenedor_nav .nav_element_links .dropdown_contenedor .dropdown_contenedor_menu {
+  width: 123px;
+}
+.contenedor .contenedor_nav .nav_element_links .dropdown_contenedor .dropdown_contenedor_menu .dropdown_contenedor_menu_link {
+  font-family: helvetica, sans-serif;
+  text-decoration: none;
+  color: #1d1c1c;
+  font-size: 1.4rem;
+  font-weight: bold;
+  padding: 10px 0px 10px 14px;
+}
+.contenedor .contenedor_nav .nav_element_links .dropdown_contenedor .dropdown_contenedor_menu .dropdown_contenedor_menu_link:hover {
+  background-color: rgba(255, 0, 72, 0.268);
+}
+.contenedor .contenedor_nav .nav_element_links .dropdown_contenedor .dropdown_contenedor_menu-colegio {
+  width: 187px;
+}
 .contenedor .contenedor_nav .nav_element_links .nav_element_links_a {
   border-radius: 4px;
   height: 35px;

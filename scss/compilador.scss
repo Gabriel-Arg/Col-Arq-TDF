@@ -218,6 +218,52 @@ body {
             align-items: center;
             justify-content: flex-end;
 
+            // ------------------------------------------
+            // BOTON DESPLEGABLE -
+            // ------------------------------------------
+            .dropdown_contenedor {
+                // border: 1px dashed blue;
+                
+                // ----BOTON--------------------------
+                .dropdown_contenedor_btn {
+                    background-color: $blanco;
+                    border: none;
+                    height: 38px;
+                    padding: 5px 15px;
+                    font-family: helvetica, sans-serif;
+                    text-decoration: none;
+                    color: $negro;
+                    font-size: 1.6rem;
+                    font-weight: bold;
+                }
+                .dropdown_contenedor_btn:hover {
+                    background-color: $rosa_links;
+                }
+
+                // ----DESPLEGABLE--------------------
+                .dropdown_contenedor_menu {
+                    // border: 1px dashed blue;
+                    width: 123px;
+
+                    // -----LINKS---------------------
+                    .dropdown_contenedor_menu_link {
+                        font-family: helvetica, sans-serif;
+                        text-decoration: none;
+                        color: $negro;
+                        font-size: 1.4rem;
+                        font-weight: bold;
+                        padding: 10px 0px 10px 14px;
+                    }
+                    .dropdown_contenedor_menu_link:hover {
+                        background-color: $rosa_links;
+                    }
+                }
+
+                .dropdown_contenedor_menu-colegio {
+                    width: 187px;
+                }
+            }
+
             .nav_element_links_a {
                 // background-color: rgba(128, 0, 113, 0.227);
                 // border: 1px dashed brown;

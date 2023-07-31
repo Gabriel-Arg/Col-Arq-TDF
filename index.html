@@ -83,7 +83,6 @@
                 </div>
                 <!--         CUERPO DEL MENU OFF CANVAS                                   -->
                 <div class="offcanvas-body">
-                    
                     <!--   ACORDEON CON LOS ENLACES PRIMARIOS--------------------------------- -->
                     <div class="accordion accordion-flush offcanvas-body_accordion" id="accordionFlushExample">
                         <!-- ----------PROFESIONALES------------------------------------- -->
@@ -114,7 +113,8 @@
                                     Colegio
                                 </button>
                             </h2>
-                            <div id="flush-collapseDos" class="accordion-collapse collapse collapse_body collapse_body_colegio"
+                            <div id="flush-collapseDos"
+                                class="accordion-collapse collapse collapse_body collapse_body_colegio"
                                 data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body collapse_body_lista">
                                     <a href="">¿Por qué matricularse</a>
@@ -135,7 +135,8 @@
                                     Noticias
                                 </button>
                             </h2>
-                            <div id="flush-collapseTres" class="accordion-collapse collapse collapse_body collapse collapse_body_noticias"
+                            <div id="flush-collapseTres"
+                                class="accordion-collapse collapse collapse_body collapse collapse_body_noticias"
                                 data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body collapse_body_lista">
                                     <a href="">Novedades</a>
@@ -153,7 +154,8 @@
                                     Legislaciones
                                 </button>
                             </h2>
-                            <div id="flush-collapseCuatro" class="accordion-collapse collapse collapse_body collapse_body_legislaciones"
+                            <div id="flush-collapseCuatro"
+                                class="accordion-collapse collapse collapse_body collapse_body_legislaciones"
                                 data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body collapse_body_lista">
                                     <a href="">Colegio de Arquitectos</a>
@@ -173,7 +175,8 @@
                                     Simulador
                                 </button>
                             </h2>
-                            <div id="flush-collapseCinco" class="accordion-collapse collapse collapse_body collapse_body_simulador"
+                            <div id="flush-collapseCinco"
+                                class="accordion-collapse collapse collapse_body collapse_body_simulador"
                                 data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body collapse_body_lista">
                                     <a href="">Calcular</a>
@@ -190,7 +193,8 @@
                                     Mi Cuenta
                                 </button>
                             </h2>
-                            <div id="flush-collapseSeis" class="accordion-collapse collapse collapse_body collapse_body_cuenta"
+                            <div id="flush-collapseSeis"
+                                class="accordion-collapse collapse collapse_body collapse_body_cuenta"
                                 data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body collapse_body_lista">
                                     <a href="">Ver mi Perfil</a>
@@ -198,20 +202,126 @@
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>
 
-            <!--      ENLACES DEL MENÚ PARA TABLET Y MONITOR       -->
+            <!-- --------------------------------------------------------------------- -->
+            <!--       MENU CON ENLACES PARA TABLET Y MONITOR                              -->
+            <!-- --------------------------------------------------------------------- -->
+
             <div class="nav_element_links">
-                <a class="nav_element_links_a" href="">Profesionales</a>
-                <a class="nav_element_links_a" href="">Colegio</a>
-                <a class="nav_element_links_a" href="">Noticias</a>
-                <a class="nav_element_links_a" href="">Legislaciones</a>
+                <!-- ----------PROFESIONALES BOTON DESPLEGABLE----------------- -->
+                <div class="dropdown dropdown_contenedor">
+                    <button class="btn btn-secondary dropdown_contenedor_btn" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Profesionales
+                    </button>
+
+                    <!-- ------EL DESPLEGABLE---------------------------------- -->
+                    <ul class="dropdown-menu dropdown_contenedor_menu">
+                        <li>
+                            <a class="dropdown-item dropdown_contenedor_menu_link" href="#">Ushuaia</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item dropdown_contenedor_menu_link" href="#">Río Grande</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item dropdown_contenedor_menu_link" href="#">Tolhuin</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- ----------COLEGIO BOTON DESPLEGABLE----------------- -->
+                <div class="dropdown dropdown_contenedor">
+                    <button class="btn btn-secondary dropdown_contenedor_btn" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Colegio
+                    </button>
+
+                    <!-- ------EL DESPLEGABLE---------------------------------- -->
+                    <ul class="dropdown-menu dropdown_contenedor_menu dropdown_contenedor_menu-colegio">
+                        <li>
+                            <a class="dropdown-item dropdown_contenedor_menu_link" href="#">¿Por qué matricularse?</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item dropdown_contenedor_menu_link" href="#">Comisiones</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item dropdown_contenedor_menu_link" href="#">Autoridades</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item dropdown_contenedor_menu_link" href="#">Trámites</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item dropdown_contenedor_menu_link" href="#">Beneficios</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- ----------NOTICIAS BOTON DESPLEGABLE----------------- -->
+                <div class="dropdown dropdown_contenedor">
+                    <button class="btn btn-secondary dropdown_contenedor_btn" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Noticias
+                    </button>
+
+                    <!-- ------EL DESPLEGABLE---------------------------------- -->
+                    <ul class="dropdown-menu dropdown_contenedor_menu">
+                        <li>
+                            <a class="dropdown-item dropdown_contenedor_menu_link" href="#">Novedades</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item dropdown_contenedor_menu_link" href="#">Blog</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- ----------LEGISLACIONES BOTON DESPLEGABLE----------------- -->
+                <div class="dropdown dropdown_contenedor">
+                    <button class="btn btn-secondary dropdown_contenedor_btn" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Legislaciones
+                    </button>
+
+                    <!-- ------EL DESPLEGABLE---------------------------------- -->
+                    <ul class="dropdown-menu dropdown_contenedor_menu dropdown_contenedor_menu-colegio">
+                        <li>
+                            <a class="dropdown-item dropdown_contenedor_menu_link" href="#">Colegio de Arquitectos</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item dropdown_contenedor_menu_link" href="#">Municipal</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item dropdown_contenedor_menu_link" href="#">Provincial</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item dropdown_contenedor_menu_link" href="#">Nacional</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- ---------SIMULADOR-BOTON DIRECTO--------------------------- -->
                 <a class="nav_element_links_a" href="">Simulador</a>
-                <a class="nav_element_links_a" href="">Matrícula</a>
-                <a class="nav_element_links_a" href="">Mi Cuenta</a>
+
+                <!-- ---------MI CUENTA BOTON DESPLEGABLE----------------- -->
+                <div class="dropdown dropdown_contenedor">
+                    <button class="btn btn-secondary dropdown_contenedor_btn" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Mi Cuenta
+                    </button>
+
+                    <!-- ------EL DESPLEGABLE---------------------------------- -->
+                    <ul class="dropdown-menu dropdown_contenedor_menu">
+                        <li>
+                            <a class="dropdown-item dropdown_contenedor_menu_link" href="#">Ver mi Perfil</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item dropdown_contenedor_menu_link" href="#">Entrar / Salir</a>
+                        </li>
+                    </ul>
+                </div>
+
             </div>
         </nav>
     </div>
