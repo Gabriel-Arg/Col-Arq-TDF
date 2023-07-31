@@ -19,18 +19,20 @@ body {
 // sass --watch scss/compilador.scss css/movil.css
 // ------------------------------------------------------
 
-//--------------------------------------------
-//     BARRA DE NAVEGACIÓN
-//--------------------------------------------
 
+// ---CONTENEDOR GENERAL----------------------
 .contenedor {
-    // border: 1px dashed red;
+    // border: 1px dashed white;
     height: 100vh;
     padding: 5px;
     background: linear-gradient(to bottom, #ff8c00, #d73900);
 
+    //--------------------------------------------
+    //     BARRA DE NAVEGACIÓN
+    //--------------------------------------------
     .contenedor_nav {
         // border: 1px dashed blue;
+        border-bottom: 1px solid $gris_claro;
         background-color: $blanco;
         height: 70px;
 
@@ -38,6 +40,8 @@ body {
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
+
+        box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.483);
 
         .contenedor_nav_element {
             // border: 1px dashed green;
@@ -264,6 +268,10 @@ body {
                 }
             }
 
+
+            // ------------------------------------------
+            // BOTON SIMULADOR
+            // ------------------------------------------
             .nav_element_links_a {
                 // background-color: rgba(128, 0, 113, 0.227);
                 // border: 1px dashed brown;
@@ -290,4 +298,66 @@ body {
             }
         }
     }
+
+    //--------------------------------------------
+    //     BODY CONTENEDOR
+    //--------------------------------------------
+
+    .cuerpo {
+        // border: 1px dashed yellow;
+        height: calc(100vh - 80px);
+        background-color: $blanco;
+
+        .cuerpo_elementos {
+            // border: 1px dashed blue;
+            height: 93%;
+
+            .cuerpo_elementos_logo {
+                // border: 1px dashed red;
+                height: 45%;
+                
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                img {
+                    // border: 1px solid $gris_claro_suave;
+                    height: 100%;
+                }
+            }
+
+            .cuerpo_elementos_cuadro {
+                // border: 1px dashed blueviolet;
+                height: 55%;
+
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+
+                .cuerpo_elementos_cuadro_items {
+                    // border: 1px solid $gris_claro;
+                    width: 10rem;
+                    height: 10rem;
+                    margin: 10px;
+
+                    img {
+                        width: 100%;
+                    }
+
+                }
+            }
+
+        }
+
+        .cuerpo_footer {
+            background: linear-gradient(to bottom, #ca1b00, #aa0600);
+            height: 7%;
+        }
+
+    }
+
+
 }

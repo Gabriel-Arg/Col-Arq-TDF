@@ -31,4 +31,33 @@
         margin: 0px 0px 0px 9px;
     }
 
+    .contenedor .cuerpo {
+        height: calc(100vh - 95px);
+    }
+
+    .contenedor .cuerpo .cuerpo_elementos {
+        height: 93%;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .contenedor .cuerpo .cuerpo_elementos .cuerpo_elementos_logo {
+        width: 60%;
+        height: 60%;
+    }
+
+    .contenedor .cuerpo .cuerpo_elementos .cuerpo_elementos_cuadro {
+        height: 60%;
+        justify-content: flex-start;
+    }
+
+    .contenedor .cuerpo .cuerpo_elementos .cuerpo_elementos_cuadro .cuerpo_elementos_cuadro_items {
+        width: 15rem;
+        height: 10rem;
+        margin: 10px;
+    }
+
 }
