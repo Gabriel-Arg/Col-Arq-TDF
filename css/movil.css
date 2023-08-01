@@ -241,6 +241,14 @@ body {
 .contenedor .cuerpo .cuerpo_elementos .cuerpo_elementos_cuadro .cuerpo_elementos_cuadro_items img {
   width: 100%;
 }
+.contenedor .cuerpo .cuerpo_elementos .iframe-contenedor {
+  height: 100%;
+  width: 100%;
+}
+.contenedor .cuerpo .cuerpo_elementos .iframe-contenedor .iframe-contenedor_iframe {
+  width: 100%;
+  height: 100%;
+}
 .contenedor .cuerpo .cuerpo_footer {
   background: linear-gradient(to bottom, #ca1b00, #aa0600);
   height: 7%;
