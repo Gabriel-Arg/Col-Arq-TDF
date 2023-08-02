@@ -309,7 +309,7 @@ body {
         background-color: $blanco;
 
         .cuerpo_elementos {
-            // border: 1px dashed blue;
+            border: 1px dashed blue;
             height: 93%;
 
             .cuerpo_elementos_logo {
@@ -359,6 +359,11 @@ body {
                     width: 100%;
                     height: 100%;
                 }
+            }
+
+            .titulo_prueba {
+                border: 1px dashed blue;
+                display: none;
             }
 
         }
