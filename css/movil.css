@@ -35,6 +35,7 @@ body {
   flex-direction: row;
   align-items: center;
   margin-left: 15px;
+  text-decoration: none;
 }
 .contenedor .contenedor_nav .nav_element_izq figure {
   margin: 0;
