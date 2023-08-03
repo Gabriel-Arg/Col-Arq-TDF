@@ -305,12 +305,12 @@ body {
     //--------------------------------------------
 
     .cuerpo {
-        // border: 1px dashed yellow;
+        border: 1px dashed yellow;
         height: calc(100vh - 80px);
-        background-color: $blanco;
+        background-color: $blanco_oscuro;
 
         .cuerpo_elementos {
-            border: 1px dashed blue;
+            // border: 1px dashed blue;
             height: 93%;
 
             .cuerpo_elementos_logo {
@@ -365,6 +365,39 @@ body {
             .titulo_prueba {
                 border: 1px dashed blue;
                 display: none;
+            }
+
+        }
+
+        .cuerpo_seccion {
+            border: 1px dashed black;
+            
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+
+            .cuerpo_seccion_titulo {
+                border: 1px dashed blue;
+                height: 13%;
+                width: 100%;
+
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+
+                h2 {
+                    margin: 0;
+                    font-family: helvetica, sans-serif;
+                    color: $rojo;
+                    font-size: 2.2rem;
+                    font-weight: bold;
+                }
+            }
+
+            .cuerpo_seccion_cont {
+                border: 1px dashed red;
             }
 
         }
