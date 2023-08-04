@@ -23,7 +23,8 @@ body {
 // ---CONTENEDOR GENERAL----------------------
 .contenedor {
     // border: 1px dashed white;
-    height: 100vh;
+    height: auto;
+    
     padding: 5px;
     background: linear-gradient(to bottom, #ff8c00, #d73900);
 
@@ -308,6 +309,8 @@ body {
         border: 1px dashed yellow;
         height: calc(100vh - 80px);
         background-color: $blanco_oscuro;
+        min-height: 90vh; /* Establece la altura mínima al 100% del viewport height */
+        max-height: fit-content; /* Establece la altura máxima para ajustarse al contenido */
 
         .cuerpo_elementos {
             // border: 1px dashed blue;
@@ -391,13 +394,32 @@ body {
                     margin: 0;
                     font-family: helvetica, sans-serif;
                     color: $rojo;
-                    font-size: 2.2rem;
+                    font-size: 2.7rem;
                     font-weight: bold;
                 }
             }
 
             .cuerpo_seccion_cont {
                 border: 1px dashed red;
+                width: 100%;
+
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: space-evenly;
+
+                .cuerpo_seccion_cont_a {
+                    text-decoration: none;
+
+                    .cuerpo_seccion_cont_a_card {
+                        background-color: $blanco;
+                        max-width: 17rem;
+                        height: 18rem;
+                        margin: 10px;
+                        box-shadow: 1px 2px 9px $negro_sombra;
+                    }
+                }
             }
 
         }
