@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   box-sizing: border-box;
   margin: 0;
@@ -15,6 +14,7 @@ body {
 
 .contenedor {
   height: auto;
+  min-height: 100vh;
   overflow: auto;
   /* Aplicar clearfix */
   padding: 5px;
@@ -214,9 +214,10 @@ body {
 }
 .contenedor .cuerpo {
   background-color: #e8e8e8;
+  height: auto;
+  min-height: calc(100vh - 120px);
+  overflow: auto;
   /* Aplicar clearfix */
-  /* Establece la altura mínima al 100% del viewport height */
-  /* Establece la altura máxima para ajustarse al contenido */
 }
 .contenedor .cuerpo .cuerpo_elementos {
   height: 93%;

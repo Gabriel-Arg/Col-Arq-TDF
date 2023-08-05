@@ -22,8 +22,9 @@ body {
 
 // ---CONTENEDOR GENERAL----------------------
 .contenedor {
-    // border: 3px dashed blue;
+    // border: 3px dashed green;
     height: auto;
+    min-height: 100vh;
     overflow: auto; /* Aplicar clearfix */
     
     padding: 5px;
@@ -309,15 +310,10 @@ body {
     .cuerpo {
         // border: 3px dashed blue;
         background-color: $blanco_oscuro;
-        // height: calc(100vh - 80px);
-        // height: auto;
-        // overflow: auto; 
-        /* Aplicar clearfix */
-
-        // min-height: 90vh; 
-        /* Establece la altura mínima al 100% del viewport height */
-        // max-height: fit-content; 
-        /* Establece la altura máxima para ajustarse al contenido */
+        height: auto;
+        // Altura del vewport menos barra de nav y footer
+        min-height: calc(100vh - 120px); 
+        overflow: auto; /* Aplicar clearfix */
 
         .cuerpo_elementos {
             // border: 1px dashed blue;
