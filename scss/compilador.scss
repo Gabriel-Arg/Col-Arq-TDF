@@ -22,8 +22,9 @@ body {
 
 // ---CONTENEDOR GENERAL----------------------
 .contenedor {
-    // border: 1px dashed white;
+    // border: 3px dashed blue;
     height: auto;
+    overflow: auto; /* Aplicar clearfix */
     
     padding: 5px;
     background: linear-gradient(to bottom, #ff8c00, #d73900);
@@ -32,7 +33,7 @@ body {
     //     BARRA DE NAVEGACIÓN
     //--------------------------------------------
     .contenedor_nav {
-        // border: 1px dashed blue;
+        // border: 2px dashed blue;
         border-bottom: 1px solid $gris_claro;
         background-color: $blanco;
         height: 70px;
@@ -306,11 +307,17 @@ body {
     //--------------------------------------------
 
     .cuerpo {
-        border: 1px dashed yellow;
-        height: calc(100vh - 80px);
+        // border: 3px dashed blue;
         background-color: $blanco_oscuro;
-        min-height: 90vh; /* Establece la altura mínima al 100% del viewport height */
-        max-height: fit-content; /* Establece la altura máxima para ajustarse al contenido */
+        // height: calc(100vh - 80px);
+        // height: auto;
+        // overflow: auto; 
+        /* Aplicar clearfix */
+
+        // min-height: 90vh; 
+        /* Establece la altura mínima al 100% del viewport height */
+        // max-height: fit-content; 
+        /* Establece la altura máxima para ajustarse al contenido */
 
         .cuerpo_elementos {
             // border: 1px dashed blue;
@@ -373,16 +380,17 @@ body {
         }
 
         .cuerpo_seccion {
-            border: 1px dashed black;
-            
+            // border: 3px dashed black;
+            height: auto;
+
             display: flex;
             flex-direction: column;
             justify-content: flex-start;
             align-items: center;
 
             .cuerpo_seccion_titulo {
-                border: 1px dashed blue;
-                height: 13%;
+                // border: 1px dashed blue;
+                height: 10vh;
                 width: 100%;
 
                 display: flex;
@@ -391,16 +399,18 @@ body {
                 justify-content: center;
 
                 h2 {
+                    // border: 1px dashed red;
                     margin: 0;
                     font-family: helvetica, sans-serif;
                     color: $rojo;
-                    font-size: 2.7rem;
+                    font-size: 2.5rem;
                     font-weight: bold;
                 }
             }
 
+            // -----CONTENEDOR DE LAS TARJETAS-----------
             .cuerpo_seccion_cont {
-                border: 1px dashed red;
+                // border: 1px dashed red;
                 width: 100%;
 
                 display: flex;
@@ -409,14 +419,15 @@ body {
                 align-items: center;
                 justify-content: space-evenly;
 
+                // -----TARJETA ---------------------
                 .cuerpo_seccion_cont_a {
                     text-decoration: none;
 
                     .cuerpo_seccion_cont_a_card {
                         background-color: $blanco;
-                        max-width: 17rem;
-                        height: 18rem;
-                        margin: 10px;
+                        max-width: 16rem;
+                        height: 16rem;
+                        margin: 8px;
                         box-shadow: 1px 2px 9px $negro_sombra;
                     }
                 }
@@ -424,11 +435,11 @@ body {
 
         }
 
-        .cuerpo_footer {
-            background: linear-gradient(to bottom, #ca1b00, #aa0600);
-            height: 7%;
-        }
+    }
 
+    .cuerpo_footer {
+        background: linear-gradient(to bottom, #ca1b00, #aa0600);
+        height: 50px;
     }
 
 

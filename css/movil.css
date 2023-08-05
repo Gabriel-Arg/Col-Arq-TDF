@@ -15,6 +15,8 @@ body {
 
 .contenedor {
   height: auto;
+  overflow: auto;
+  /* Aplicar clearfix */
   padding: 5px;
   background: linear-gradient(to bottom, #ff8c00, #d73900);
 }
@@ -211,12 +213,9 @@ body {
   transition: background-color 0.3s;
 }
 .contenedor .cuerpo {
-  border: 1px dashed yellow;
-  height: calc(100vh - 80px);
   background-color: #e8e8e8;
-  min-height: 90vh;
+  /* Aplicar clearfix */
   /* Establece la altura mínima al 100% del viewport height */
-  max-height: fit-content;
   /* Establece la altura máxima para ajustarse al contenido */
 }
 .contenedor .cuerpo .cuerpo_elementos {
@@ -261,15 +260,14 @@ body {
   display: none;
 }
 .contenedor .cuerpo .cuerpo_seccion {
-  border: 1px dashed black;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
 }
 .contenedor .cuerpo .cuerpo_seccion .cuerpo_seccion_titulo {
-  border: 1px dashed blue;
-  height: 13%;
+  height: 10vh;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -280,11 +278,10 @@ body {
   margin: 0;
   font-family: helvetica, sans-serif;
   color: #da1b1b;
-  font-size: 2.7rem;
+  font-size: 2.5rem;
   font-weight: bold;
 }
 .contenedor .cuerpo .cuerpo_seccion .cuerpo_seccion_cont {
-  border: 1px dashed red;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -297,14 +294,14 @@ body {
 }
 .contenedor .cuerpo .cuerpo_seccion .cuerpo_seccion_cont .cuerpo_seccion_cont_a .cuerpo_seccion_cont_a_card {
   background-color: white;
-  max-width: 17rem;
-  height: 18rem;
-  margin: 10px;
+  max-width: 16rem;
+  height: 16rem;
+  margin: 8px;
   box-shadow: 1px 2px 9px rgba(29, 28, 28, 0.192);
 }
-.contenedor .cuerpo .cuerpo_footer {
+.contenedor .cuerpo_footer {
   background: linear-gradient(to bottom, #ca1b00, #aa0600);
-  height: 7%;
+  height: 50px;
 }
 
 /*# sourceMappingURL=movil.css.map */
