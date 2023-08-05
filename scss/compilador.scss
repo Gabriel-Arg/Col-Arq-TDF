@@ -376,7 +376,7 @@ body {
         }
 
         .cuerpo_seccion {
-            border: 3px dashed black;
+            // border: 3px dashed black;
             height: auto;
             padding-bottom: 10px;
 
@@ -385,6 +385,7 @@ body {
             justify-content: flex-start;
             align-items: center;
 
+            // -----TITULO DE LA SECCION-----------
             .cuerpo_seccion_titulo {
                 // border: 1px dashed blue;
                 height: 10vh;
