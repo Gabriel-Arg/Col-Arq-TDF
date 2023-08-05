@@ -220,7 +220,7 @@ body {
   /* Aplicar clearfix */
 }
 .contenedor .cuerpo .cuerpo_elementos {
-  height: 93%;
+  height: calc(100vh - 70px);
 }
 .contenedor .cuerpo .cuerpo_elementos .cuerpo_elementos_logo {
   height: 45%;
@@ -261,7 +261,9 @@ body {
   display: none;
 }
 .contenedor .cuerpo .cuerpo_seccion {
+  border: 3px dashed black;
   height: auto;
+  padding-bottom: 10px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;

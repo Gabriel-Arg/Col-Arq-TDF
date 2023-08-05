@@ -316,8 +316,8 @@ body {
         overflow: auto; /* Aplicar clearfix */
 
         .cuerpo_elementos {
-            // border: 1px dashed blue;
-            height: 93%;
+            // border: 2px dashed red;
+            height: calc(100vh - 70px);
 
             .cuerpo_elementos_logo {
                 // border: 1px dashed red;
@@ -376,8 +376,9 @@ body {
         }
 
         .cuerpo_seccion {
-            // border: 3px dashed black;
+            border: 3px dashed black;
             height: auto;
+            padding-bottom: 10px;
 
             display: flex;
             flex-direction: column;
