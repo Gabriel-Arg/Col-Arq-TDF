@@ -271,6 +271,7 @@ body {
 .contenedor .cuerpo .cuerpo_seccion .cuerpo_seccion_titulo {
   height: 10vh;
   width: 100%;
+  margin-top: 10px;
   display: flex;
   flex-direction: row;
   align-items: center;

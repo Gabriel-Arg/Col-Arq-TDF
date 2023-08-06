@@ -1,5 +1,4 @@
 @media screen and (min-width: 1025px) {
-
     .contenedor .contenedor_nav {
         height: 85px;
     }
@@ -58,6 +57,30 @@
         width: 15rem;
         height: 10rem;
         margin: 10px;
+    }
+
+    .contenedor .cuerpo .cuerpo_seccion {
+        height: auto;
+        padding-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .contenedor .cuerpo .cuerpo_seccion .cuerpo_seccion_titulo {
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .contenedor .cuerpo .cuerpo_seccion .cuerpo_seccion_titulo h2 {
+        margin-left: 2vw;
+    }
+
+    .contenedor .cuerpo .cuerpo_seccion .cuerpo_seccion_cont {
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding: 0px 15px;
     }
 
 }

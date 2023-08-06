@@ -375,6 +375,7 @@ body {
 
         }
 
+        // ----SECCION CONTENEDOR DE TARJETAS--------
         .cuerpo_seccion {
             // border: 3px dashed black;
             height: auto;
@@ -390,6 +391,7 @@ body {
                 // border: 1px dashed blue;
                 height: 10vh;
                 width: 100%;
+                margin-top: 10px;
 
                 display: flex;
                 flex-direction: row;
