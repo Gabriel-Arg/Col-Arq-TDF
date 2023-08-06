@@ -31,7 +31,9 @@
     }
 
     .contenedor .cuerpo {
-        height: calc(100vh - 95px);
+        min-height: calc(100vh - 95px);
+        max-height: none; /* Altura máxima flexible, se ajustará automáticamente */
+        overflow-y: auto; /* Agrega una barra de desplazamiento vertical si es necesario */
     }
 
     .contenedor .cuerpo .cuerpo_elementos {
