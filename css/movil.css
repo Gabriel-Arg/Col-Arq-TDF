@@ -302,6 +302,27 @@ body {
   margin: 8px;
   box-shadow: 1px 2px 9px rgba(29, 28, 28, 0.192);
 }
+.contenedor .cuerpo .cuerpo_seccion .cuerpo_seccion_parrafos {
+  border: 2px dashed blue;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.contenedor .cuerpo .cuerpo_seccion .cuerpo_seccion_parrafos .seccion_parrafo_grupo {
+  border: 2px dashed red;
+  width: 98%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+}
+.contenedor .cuerpo .cuerpo_seccion .cuerpo_seccion_parrafos .seccion_parrafo_grupo .parrafo_contenedor {
+  border: 1px dashed blue;
+  height: 150px;
+}
 .contenedor .cuerpo_footer {
   background: linear-gradient(to bottom, #ca1b00, #aa0600);
   height: 50px;

@@ -85,4 +85,11 @@
         padding: 0px 15px;
     }
 
+    .contenedor .cuerpo .cuerpo_seccion .cuerpo_seccion_cont-parrafos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
 }
