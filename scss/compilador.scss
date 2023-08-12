@@ -443,7 +443,7 @@ body {
 
             // -----CONTENEDOR DE PARRAFOS-----------
             .cuerpo_seccion_parrafos {
-                border: 2px dashed blue;
+                // border: 2px dashed blue;
                 width: 100%;
 
                 display: flex;
@@ -451,21 +451,44 @@ body {
                 align-items: center;
                 justify-content: center;
 
-                .seccion_parrafo_grupo {
-                    border: 2px dashed red;
-                    width: 98%;
+                .parrafo_1 {
+                    // border: 2px dashed red;
+                    border-left: 1px solid $rojo;
+                    margin-bottom: 20px;
+                    width: 95%;
 
                     display: flex;
-                    flex-direction: row;
-                    flex-wrap: wrap;
-                    align-items: center;
+                    flex-direction: column;
+                    align-items: flex-start;
                     justify-content: flex-start;
 
                     // -----TARJETA CON PARRAFOS------------
-                    .parrafo_contenedor {
-                        border: 1px dashed blue;
-                        height: 150px;
+                    
+                    .parrafo_1_titulo {
+                        border: 1px solid $gris_claro_suave;
+                        border-radius: 5px 5px 0px 0px;
+                        background-color: $blanco;
+                        padding: 10px;
+                        margin: 10px;
+                        box-shadow: 1px 2px 9px $negro_sombra;
+
+                        font-family: helvetica, sans-serif;
+                        color: $negro;
+                        font-size: 1.8rem;
+                        font-weight: bold;
                     }
+
+                    .parrafo_1_txt {
+                        // border: 1px solid black;
+                        margin: 5px 10px;
+                        padding: 10px;
+
+                        font-family: helvetica, sans-serif;
+                        color: $negro;
+                        font-size: 1.8rem;
+                        text-align: justify;
+                    }
+
                 }
             }
 
