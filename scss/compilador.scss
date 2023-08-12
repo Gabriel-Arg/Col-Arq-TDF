@@ -453,20 +453,19 @@ body {
 
                 .parrafo_1 {
                     // border: 2px dashed red;
-                    border-left: 1px solid $rojo;
                     margin-bottom: 20px;
                     width: 95%;
 
                     display: flex;
                     flex-direction: column;
-                    align-items: flex-start;
+                    align-items: center;
                     justify-content: flex-start;
 
                     // -----TARJETA CON PARRAFOS------------
                     
                     .parrafo_1_titulo {
                         border: 1px solid $gris_claro_suave;
-                        border-radius: 5px 5px 0px 0px;
+                        border-radius: 5px;
                         background-color: $blanco;
                         padding: 10px;
                         margin: 10px;
@@ -474,7 +473,7 @@ body {
 
                         font-family: helvetica, sans-serif;
                         color: $negro;
-                        font-size: 1.8rem;
+                        font-size: 1.4rem;
                         font-weight: bold;
                     }
 
@@ -485,7 +484,7 @@ body {
 
                         font-family: helvetica, sans-serif;
                         color: $negro;
-                        font-size: 1.8rem;
+                        font-size: 1.4rem;
                         text-align: justify;
                     }
 
