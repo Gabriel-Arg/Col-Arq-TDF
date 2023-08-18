@@ -441,6 +441,48 @@ body {
                 }
             }
 
+            // --------------------------------------
+            // -----TARJETAS DE COMISIONES-----------
+            // --------------------------------------
+
+            #comisiones-contenedor {
+                // border: 1px dashed red;
+                height: 220px;
+
+                #comisiones-contenedor-tarjeta {
+                    // border: 1px dashed blue;
+                    height: 92%;
+                }
+            }
+
+            #comisiones-titulo {
+                font-family: helvetica, sans-serif;
+                color: $negro;
+                font-size: 1.2rem;
+                font-weight: bold;
+                line-height: 1.2;
+                padding: 12px;
+                height: 70px;
+                // border-bottom: none;
+            }
+
+            #comisiones-body {
+                // border: 1px dashed red;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+
+                #comisiones-body-txt {
+                    // border: 1px dashed blue;
+                    font-family: helvetica, sans-serif;
+                    color: $negro;
+                    font-size: 1.2rem;
+                    line-height: 1.2;
+                }
+            }
+
+
+
             // -----CONTENEDOR DE PARRAFOS-----------
             .cuerpo_seccion_parrafos {
                 // border: 2px dashed blue;

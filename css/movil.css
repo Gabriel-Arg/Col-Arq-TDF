@@ -302,6 +302,32 @@ body {
   margin: 8px;
   box-shadow: 1px 2px 9px rgba(29, 28, 28, 0.192);
 }
+.contenedor .cuerpo .cuerpo_seccion #comisiones-contenedor {
+  height: 220px;
+}
+.contenedor .cuerpo .cuerpo_seccion #comisiones-contenedor #comisiones-contenedor-tarjeta {
+  height: 92%;
+}
+.contenedor .cuerpo .cuerpo_seccion #comisiones-titulo {
+  font-family: helvetica, sans-serif;
+  color: #1d1c1c;
+  font-size: 1.2rem;
+  font-weight: bold;
+  line-height: 1.2;
+  padding: 12px;
+  height: 70px;
+}
+.contenedor .cuerpo .cuerpo_seccion #comisiones-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.contenedor .cuerpo .cuerpo_seccion #comisiones-body #comisiones-body-txt {
+  font-family: helvetica, sans-serif;
+  color: #1d1c1c;
+  font-size: 1.2rem;
+  line-height: 1.2;
+}
 .contenedor .cuerpo .cuerpo_seccion .cuerpo_seccion_parrafos {
   width: 100%;
   display: flex;
@@ -322,7 +348,7 @@ body {
   border-radius: 5px;
   background-color: white;
   padding: 10px;
-  width: 98%;
+  width: 80%;
   text-align: center;
   margin: 10px 0px;
   box-shadow: 1px 2px 9px rgba(29, 28, 28, 0.192);

@@ -85,6 +85,7 @@
         align-items: flex-start;
         justify-content: flex-start;
         padding: 0px 15px;
+        /* border: 3px dashed blueviolet; */
     }
 
     .contenedor .cuerpo .cuerpo_seccion .cuerpo_seccion_cont-parrafos {
