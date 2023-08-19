@@ -324,23 +324,48 @@ body {
         /* Aplicar clearfix */
 
         .cuerpo_elementos {
-            // border: 2px dashed red;
+            // border: 2px dashed black;
             height: calc(100vh - 70px);
 
             .cuerpo_elementos_logo {
-                // border: 1px dashed red;
+                // border: 2px dashed blue;
                 height: 45%;
+                background-image: url(../img/planos01.jpg);
+                background-size: cover;
+                /* Esto ajustará la imagen al tamaño del contenedor sin deformarla */
+                background-repeat: no-repeat;
+                opacity: 0.7;
+                position: relative;
 
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
 
-                img {
-                    // border: 1px solid $gris_claro_suave;
-                    height: 100%;
+                h1 {
+                    font-family: helvetica, sans-serif;
+                    color: $rojo;
+                    font-size: 2.8rem;
+                    font-weight: bold;
+                    text-align: center;
                 }
             }
+
+            .cuerpo_elementos_logo::before {
+                content: "";
+                position: absolute;
+                z-index: -1;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                backdrop-filter: blur(2px);
+                background: linear-gradient($blanco_transparente, $gris_claro_suave);
+            }
+
+
+
+
 
             .cuerpo_elementos_cuadro {
                 // border: 1px dashed blueviolet;
@@ -504,7 +529,7 @@ body {
                     justify-content: center;
 
                     // -----TARJETA CON PARRAFOS------------
-                    
+
                     .parrafo_1_titulo {
                         border: 1px solid $gris_claro_suave;
                         border-radius: 5px;

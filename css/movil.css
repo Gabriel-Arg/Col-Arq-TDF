@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   box-sizing: border-box;
   margin: 0;
@@ -224,13 +225,34 @@ body {
 }
 .contenedor .cuerpo .cuerpo_elementos .cuerpo_elementos_logo {
   height: 45%;
+  background-image: url(../img/planos01.jpg);
+  background-size: cover;
+  /* Esto ajustará la imagen al tamaño del contenedor sin deformarla */
+  background-repeat: no-repeat;
+  opacity: 0.7;
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.contenedor .cuerpo .cuerpo_elementos .cuerpo_elementos_logo img {
+.contenedor .cuerpo .cuerpo_elementos .cuerpo_elementos_logo h1 {
+  font-family: helvetica, sans-serif;
+  color: #da1b1b;
+  font-size: 2.8rem;
+  font-weight: bold;
+  text-align: center;
+}
+.contenedor .cuerpo .cuerpo_elementos .cuerpo_elementos_logo::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
   height: 100%;
+  backdrop-filter: blur(2px);
+  background: linear-gradient(rgba(232, 232, 232, 0.811), rgba(175, 175, 175, 0.402));
 }
 .contenedor .cuerpo .cuerpo_elementos .cuerpo_elementos_cuadro {
   height: 55%;
