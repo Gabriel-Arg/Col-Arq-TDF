@@ -296,7 +296,6 @@ body {
   height: 100%;
 }
 .contenedor .cuerpo .cuerpo_elementos .titulo_prueba {
-  border: 1px dashed blue;
   display: none;
 }
 .contenedor .cuerpo .cuerpo_seccion {
