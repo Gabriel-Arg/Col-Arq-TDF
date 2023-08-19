@@ -18,24 +18,23 @@
     <!--------......-PESTAÑA DEL NAGEGADOR------------------------------------------------------->
     <!-- TITULO EN LA PESTAÑA DEL NAVEGADOR -->
     <title>Colegio de Arq TDF</title>
-    
+
     <!-- ICONO DE LA PESTAÑA DEL NAVEGADOR -->
-    <link rel="icon" href="icon/CDA.PNG" />
+    <link rel="icon" href="../icon/CDA.PNG" />
 
     <!--FRAMEWORKS Y LIBRERÍAS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
 
     <!-- GOOGLE FONTS -->
 
-
     <!-- ----------ENLACE A MI HOJA DE ESTILO EXTERNO CSS------------------------------------- -->
-    <link rel="stylesheet" href="css/movil.css" />
-    <link rel="stylesheet" href="css/movil2.css" />
-    <link rel="stylesheet" href="css/tablet.css" />
-    <link rel="stylesheet" href="css/tablet2.css" />
-    <link rel="stylesheet" href="css/compu1.css" />
-    <link rel="stylesheet" href="css/compu2.css" />
-
+    <link rel="stylesheet" href="../css/movil.css" />
+    <link rel="stylesheet" href="../css/movil2.css" />
+    <link rel="stylesheet" href="../css/tablet.css" />
+    <link rel="stylesheet" href="../css/tablet2.css" />
+    <link rel="stylesheet" href="../css/compu1.css" />
+    <link rel="stylesheet" href="../css/compu2.css" />
 
     <!-- ----------HOJAS JAVASCRIPT---------------------------------- -->
 
@@ -44,19 +43,16 @@
 </head>
 
 <body>
-
     <div class="contenedor">
-
         <!-- --------------------------------------------------------------------- -->
         <!--               BARRA DE NAVEGACIÓN                                     -->
         <!-- --------------------------------------------------------------------- -->
-        
+
         <nav class="contenedor_nav">
             <!-- -------lOGO COLEGIO DE ARQ A LA IZQUIERDA                      -->
-
-            <a href="index.html" class="contenedor_nav_element nav_element_izq">
+            <a href="../index.html" class="contenedor_nav_element nav_element_izq">
                 <figure>
-                    <img src="icon/CDA.PNG" alt="Logo del Colegio de Arquitectos" />
+                    <img src="../icon/CDA.PNG" alt="Logo del Colegio de Arquitectos" />
                 </figure>
                 <h2>
                     Colegio de <br />
@@ -70,14 +66,11 @@
                 <!-- ------BOTON MENU--------------------- -->
                 <button class="btn btn-primary nav_menu" type="button" data-bs-toggle="offcanvas"
                     data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
-                    <img src="./icon/menu-right.png" alt="Botón menu" />
+                    <img src="../icon/menu-right.png" alt="Botón menu" />
                 </button>
             </div>
 
-            <!-- ------------------------------------------------------------------ -->
             <!--          MENU DESPLEGABLE OFF CANVAS                               -->
-            <!-- ------------------------------------------------------------------ -->
-
             <div class="offcanvas offcanvas-end offcanvas_contenedor" tabindex="-1" id="offcanvasRight"
                 aria-labelledby="offcanvasRightLabel">
                 <div class="offcanvas-header">
@@ -88,7 +81,7 @@
 
                     <!--    BOTON DE CIERRE                        -->
                     <button type="button" class="btn_menu_cerrar" data-bs-dismiss="offcanvas" aria-label="Close">
-                        <img src="icon/close.png" alt="Boton cerrar" />
+                        <img src="../icon/close.png" alt="Boton cerrar" />
                     </button>
                 </div>
                 <!--         CUERPO DEL MENU OFF CANVAS                                   -->
@@ -107,9 +100,9 @@
                             <div id="flush-collapseOne" class="accordion-collapse collapse collapse_body"
                                 data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body collapse_body_lista">
-                                    <a href="./doc/profesionales-ushuaia.html" alt>Ushuaia</a>
-                                    <a href="./doc/profesionales-riogrande.html">Río Grande</a>
-                                    <a href="./doc/profesionales-tolhuin.html">Tolhuin</a>
+                                    <a href="../doc/profesionales-ushuaia.html" alt>Ushuaia</a>
+                                    <a href="../doc/profesionales-riogrande.html">Río Grande</a>
+                                    <a href="../doc/profesionales-tolhuin.html">Tolhuin</a>
                                 </div>
                             </div>
                         </div>
@@ -127,9 +120,9 @@
                                 class="accordion-collapse collapse collapse_body collapse_body_colegio"
                                 data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body collapse_body_lista">
-                                    <a href="./doc/porque-matricularse.html">¿Por qué matricularse</a>
-                                    <a href="./doc/comisiones.html">Comisiones</a>
-                                    <a href="./doc/autoridades.html">Autoridades</a>
+                                    <a href="../doc/porque-matricularse.html">¿Por qué matricularse</a>
+                                    <a href="../doc/comisiones.html">Comisiones</a>
+                                    <a href="../doc/autoridades.html">Autoridades</a>
                                     <a href="">Trámites</a>
                                     <a href="">Beneficios</a>
                                 </div>
@@ -189,7 +182,7 @@
                                 class="accordion-collapse collapse collapse_body collapse_body_simulador"
                                 data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body collapse_body_lista">
-                                    <a  href="/doc/simulador.html">Calcular</a>
+                                    <a href="/doc/simulador.html">Calcular</a>
                                 </div>
                             </div>
                         </div>
@@ -231,13 +224,16 @@
                     <!-- ------EL DESPLEGABLE---------------------------------- -->
                     <ul class="dropdown-menu dropdown_contenedor_menu">
                         <li>
-                            <a class="dropdown-item dropdown_contenedor_menu_link" href="doc/profesionales-ushuaia.html">Ushuaia</a>
+                            <a class="dropdown-item dropdown_contenedor_menu_link"
+                                href="../doc/profesionales-ushuaia.html">Ushuaia</a>
                         </li>
                         <li>
-                            <a class="dropdown-item dropdown_contenedor_menu_link" href="doc/profesionales-riogrande.html">Río Grande</a>
+                            <a class="dropdown-item dropdown_contenedor_menu_link"
+                                href="../doc/profesionales-riogrande.html">Río Grande</a>
                         </li>
                         <li>
-                            <a class="dropdown-item dropdown_contenedor_menu_link" href="doc/profesionales-tolhuin.html">Tolhuin</a>
+                            <a class="dropdown-item dropdown_contenedor_menu_link"
+                                href="../doc/profesionales-tolhuin.html">Tolhuin</a>
                         </li>
                     </ul>
                 </div>
@@ -252,13 +248,16 @@
                     <!-- ------EL DESPLEGABLE---------------------------------- -->
                     <ul class="dropdown-menu dropdown_contenedor_menu dropdown_contenedor_menu-colegio">
                         <li>
-                            <a class="dropdown-item dropdown_contenedor_menu_link" href="doc/porque-matricularse.html">¿Por qué matricularse?</a>
+                            <a class="dropdown-item dropdown_contenedor_menu_link"
+                                href="../doc/porque-matricularse.html">¿Por qué matricularse?</a>
                         </li>
                         <li>
-                            <a class="dropdown-item dropdown_contenedor_menu_link" href="doc/comisiones.html">Comisiones</a>
+                            <a class="dropdown-item dropdown_contenedor_menu_link"
+                                href="../doc/comisiones.html">Comisiones</a>
                         </li>
                         <li>
-                            <a class="dropdown-item dropdown_contenedor_menu_link" href="doc/autoridades.html">Autoridades</a>
+                            <a class="dropdown-item dropdown_contenedor_menu_link"
+                                href="../doc/autoridades.html">Autoridades</a>
                         </li>
                         <li>
                             <a class="dropdown-item dropdown_contenedor_menu_link" href="#">Trámites</a>
@@ -331,54 +330,200 @@
                         </li>
                     </ul>
                 </div>
-
             </div>
         </nav>
 
         <!-- --------------------------------------------------------------------- -->
         <!--               BODY CONTENEDOR                                     -->
         <!-- --------------------------------------------------------------------- -->
-        
-        <div class="cuerpo">
-            <div class="cuerpo_elementos">
 
-                <div class="cuerpo_elementos_logo">
-                    <img src="img/cuadrado.png" alt="">
+        <div class="cuerpo">
+            <div class="cuerpo_elementos cuerpo_seccion">
+                <!-- ------TITULO DE SECCION------------ -->
+                <div class="cuerpo_seccion_titulo">
+                    <h2>Profesionales de Tolhuin</h2>
                 </div>
-                <div class="cuerpo_elementos_cuadro">
-                    <div class="cuerpo_elementos_cuadro_items"><img src="img/cuadrado.png" alt=""></div>
-                    <div class="cuerpo_elementos_cuadro_items"><img src="img/cuadrado.png" alt=""></div>
-                    <div class="cuerpo_elementos_cuadro_items"><img src="img/cuadrado.png" alt=""></div>
-                    <div class="cuerpo_elementos_cuadro_items"><img src="img/cuadrado.png" alt=""></div>
-                    <div class="cuerpo_elementos_cuadro_items"><img src="img/cuadrado.png" alt=""></div>
-                    <div class="cuerpo_elementos_cuadro_items"><img src="img/cuadrado.png" alt=""></div>
+
+                <!-- ------CONTENIDOS DE LA SECCION------ -->
+                <div class="cuerpo_seccion_cont">
+
+                    <!-- --------TARJETA CON DATOS DEL PROFESIONAL--------- -->
+                    <a href="" class="cuerpo_seccion_cont_a">
+                        <div class="card mb-3 cuerpo_seccion_cont_a_card">
+                            <div class="card-header">002245</div>
+                            <div class="card-body">
+                                <h5 class="card-title">Apellido</h5>
+                                <h5>Nombre Nombre</h5>
+                                <p class="card-text">
+                                    Otros datos de interes al respecto del profesional en pocas palabras
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- --------TARJETA CON DATOS DEL PROFESIONAL--------- -->
+                    <a href="" class="cuerpo_seccion_cont_a">
+                        <div class="card mb-3 cuerpo_seccion_cont_a_card">
+                            <div class="card-header">002245</div>
+                            <div class="card-body">
+                                <h5 class="card-title">Apellido</h5>
+                                <h5>Nombre Nombre</h5>
+                                <p class="card-text">
+                                    Otros datos de interes al respecto del profesional en pocas palabras
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- --------TARJETA CON DATOS DEL PROFESIONAL--------- -->
+                    <a href="" class="cuerpo_seccion_cont_a">
+                        <div class="card mb-3 cuerpo_seccion_cont_a_card">
+                            <div class="card-header">002245</div>
+                            <div class="card-body">
+                                <h5 class="card-title">Apellido</h5>
+                                <h5>Nombre Nombre</h5>
+                                <p class="card-text">
+                                    Otros datos de interes al respecto del profesional en pocas palabras
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- --------TARJETA CON DATOS DEL PROFESIONAL--------- -->
+                    <a href="" class="cuerpo_seccion_cont_a">
+                        <div class="card mb-3 cuerpo_seccion_cont_a_card">
+                            <div class="card-header">002245</div>
+                            <div class="card-body">
+                                <h5 class="card-title">Apellido</h5>
+                                <h5>Nombre Nombre</h5>
+                                <p class="card-text">
+                                    Otros datos de interes al respecto del profesional en pocas palabras
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- --------TARJETA CON DATOS DEL PROFESIONAL--------- -->
+                    <a href="" class="cuerpo_seccion_cont_a">
+                        <div class="card mb-3 cuerpo_seccion_cont_a_card">
+                            <div class="card-header">002245</div>
+                            <div class="card-body">
+                                <h5 class="card-title">Apellido</h5>
+                                <h5>Nombre Nombre</h5>
+                                <p class="card-text">
+                                    Otros datos de interes al respecto del profesional en pocas palabras
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- --------TARJETA CON DATOS DEL PROFESIONAL--------- -->
+                    <a href="" class="cuerpo_seccion_cont_a">
+                        <div class="card mb-3 cuerpo_seccion_cont_a_card">
+                            <div class="card-header">002245</div>
+                            <div class="card-body">
+                                <h5 class="card-title">Apellido</h5>
+                                <h5>Nombre Nombre</h5>
+                                <p class="card-text">
+                                    Otros datos de interes al respecto del profesional en pocas palabras
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- --------TARJETA CON DATOS DEL PROFESIONAL--------- -->
+                    <a href="" class="cuerpo_seccion_cont_a">
+                        <div class="card mb-3 cuerpo_seccion_cont_a_card">
+                            <div class="card-header">002245</div>
+                            <div class="card-body">
+                                <h5 class="card-title">Apellido</h5>
+                                <h5>Nombre Nombre</h5>
+                                <p class="card-text">
+                                    Otros datos de interes al respecto del profesional en pocas palabras
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- --------TARJETA CON DATOS DEL PROFESIONAL--------- -->
+                    <a href="" class="cuerpo_seccion_cont_a">
+                        <div class="card mb-3 cuerpo_seccion_cont_a_card">
+                            <div class="card-header">002245</div>
+                            <div class="card-body">
+                                <h5 class="card-title">Apellido</h5>
+                                <h5>Nombre Nombre</h5>
+                                <p class="card-text">
+                                    Otros datos de interes al respecto del profesional en pocas palabras
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- --------TARJETA CON DATOS DEL PROFESIONAL--------- -->
+                    <a href="" class="cuerpo_seccion_cont_a">
+                        <div class="card mb-3 cuerpo_seccion_cont_a_card">
+                            <div class="card-header">002245</div>
+                            <div class="card-body">
+                                <h5 class="card-title">Apellido</h5>
+                                <h5>Nombre Nombre</h5>
+                                <p class="card-text">
+                                    Otros datos de interes al respecto del profesional en pocas palabras
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- --------TARJETA CON DATOS DEL PROFESIONAL--------- -->
+                    <a href="" class="cuerpo_seccion_cont_a">
+                        <div class="card mb-3 cuerpo_seccion_cont_a_card">
+                            <div class="card-header">002245</div>
+                            <div class="card-body">
+                                <h5 class="card-title">Apellido</h5>
+                                <h5>Nombre Nombre</h5>
+                                <p class="card-text">
+                                    Otros datos de interes al respecto del profesional en pocas palabras
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- --------TARJETA CON DATOS DEL PROFESIONAL--------- -->
+                    <a href="" class="cuerpo_seccion_cont_a">
+                        <div class="card mb-3 cuerpo_seccion_cont_a_card">
+                            <div class="card-header">002245</div>
+                            <div class="card-body">
+                                <h5 class="card-title">Apellido</h5>
+                                <h5>Nombre Nombre</h5>
+                                <p class="card-text">
+                                    Otros datos de interes al respecto del profesional en pocas palabras
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+
+
                 </div>
+
+
 
             </div>
-        </div>
 
-        <div class="cuerpo_footer"></div>
-    
+        </div>
     </div>
 
-
-
-
-
-
-
-
-    
-
+    <div class="cuerpo_footer"></div>
+    </div>
 
     <!-- --------------------------------------------------------------------- -->
     <!--              SCRIPT BOOSTRAP                                           -->
     <!-- --------------------------------------------------------------------- -->
 
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
-
-
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
